@@ -27,7 +27,7 @@ class GoPaySDK
             'goid' => config('gopay.goid'),
             'clientId' => config('gopay.clientId'),
             'clientSecret' => config('gopay.clientSecret'),
-            'isProductionMode' => !filter_var(getenv('APP_DEBUG'), FILTER_VALIDATE_BOOLEAN),
+            'isProductionMode' => !filter_var(config('gopay.isProductionMode'), FILTER_VALIDATE_BOOLEAN),
             'timeout' => config('gopay.timeout')
         ];
 
