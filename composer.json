@@ -13,13 +13,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "HazeStudio\\LaravelGoPaySDK\\": "src/"
+            "Rivess\\LaravelGoPaySDK\\": "src/"
         }
-    },
-    "authors": [
-        {
-            "name": "Haze Studio",
-            "email": "studio@haze.sk"
-        }
+    }
     ]
 }
