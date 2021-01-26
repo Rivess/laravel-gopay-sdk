@@ -1,5 +1,5 @@
 {
-    "name": "hazestudio/laravel-gopay-sdk",
+    "name": "rivess/laravel-gopay-sdk",
     "description": "GoPay SDK integration with Laravel Framework",
     "type": "library",
     "require": {
